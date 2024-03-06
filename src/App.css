@@ -49,7 +49,7 @@ body {
 .logos-slide {
   display: inline-block;
   overflow: hidden;
-  animation: 25s slide infinite linear;
+  animation: 35s slide infinite linear;
 }
 
 .logos-slide img {
@@ -60,7 +60,7 @@ body {
 @media only screen and (max-width: 600px) {
   .logos-slide img {
     height: 40px; /* Adjust the height for small devices */
-    margin: 0 20px; /* Adjust the margin for small devices if needed */
+    margin: 0 7px; /* Adjust the margin for small devices if needed */
   }
   .logos {
     margin-top: -25%;
