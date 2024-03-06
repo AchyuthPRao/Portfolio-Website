@@ -39,7 +39,7 @@ body {
   background: white;
   white-space: nowrap;
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .logos:hover .logos-slide {
