@@ -60,7 +60,7 @@ body {
 @media only screen and (max-width: 600px) {
   .logos-slide img {
     height: 40px; /* Adjust the height for small devices */
-    margin: 0 20px; /* Adjust the margin for small devices if needed */
+    margin: 0 8px; /* Adjust the margin for small devices if needed */
   }
   .logos {
     margin-top: -25%;
