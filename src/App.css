@@ -1,9 +1,14 @@
-body{
-  font-family: 'Inter', sans-serif;
-  background-color: ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.ikon{
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.ikon {
   font-size: 70px;
 }
 
@@ -17,5 +22,47 @@ body{
 @media (min-width: 768px) and (max-width: 1023px) {
   .ikon {
     font-size: 50px; /* Adjust the font size for medium devices */
+  }
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  overflow: hidden;
+  animation: 25s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 80px;
+  margin: 0 40px;
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  .logos-slide img {
+    height: 40px; /* Adjust the height for small devices */
+    margin: 0 20px; /* Adjust the margin for small devices if needed */
+  }
+  .logos {
+    margin-top: -25%;
   }
 }
