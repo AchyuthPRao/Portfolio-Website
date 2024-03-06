@@ -2,17 +2,29 @@ import React from "react";
 import bitez from "../images/bitez.png";
 import catal from "../images/catal.png";
 import smsp from "../images/smsp.png";
+import pharma from "../images/Screenshot 2024-03-06 135747.png";
 
 const posts = [
   {
     id: 1,
+    title: "PharmaDB",
+    href: "https://github.com/AchyuthPRao/Pharma_db-React",
+    description:
+      "A Full Stack Project with ReactJs, Docker, ExpressJs and MySql as the database. To Store Pharmaceutical data. Database normalized to 3NF with multiple tables and forms.",
+    date: "February, 2024",
+    category: { title: "DBMS and Full Stack (Dockerized)", href: "#" },
+    image: pharma,
+  },
+  {
+    
+    id: 4,
     title: "Bitez",
     href: "https://github.com/AchyuthPRao/Bitez",
     description:
       "A fully functional Food-ordering website built from scratch using MERN stack, with a robust database built using Mongoose and MongoDB,An interactive and quick Frontend UI built using ReactJs,Redux and The backend is handled by NodeJs and Express",
     date: "November, 2023",
     category: { title: "MERN stack", href: "#" },
-    image:bitez,
+    image: bitez,
   },
   {
     id: 2,
@@ -22,7 +34,7 @@ const posts = [
       "One stop solution for your Untracked Expenses! A full fledged expense tracker with User Authentication,P2P lending(Chat Room), Interactive Ui, Annual Financial Analysis and much more!",
     date: "November, 2023",
     category: { title: "MERN stack", href: "#" },
-    image: smsp ,
+    image: smsp,
   },
   {
     id: 3,
@@ -32,8 +44,9 @@ const posts = [
       "Catalysis is an inter-department, extravagant 3-day tech fest, hosted by the ISE Department of Dayananda Sagar College of Engineering (DSCE), Bangalore.Contributed in making this full stack website. Catalysis aims to bring out the technical aspects in students by incorporating tech in various events going to be held throughout the whole of the fest",
     date: "December, 2023",
     category: { title: "MERN stack", href: "#" },
-    image:  catal ,
+    image: catal,
   },
+ 
 
   // More posts...
 ];
@@ -67,7 +80,7 @@ export default function Projects() {
                   {post.description}
                 </p>
                 <div className="mt-2 mr-2">
-                  <img src={post.image} alt={post.image}/>
+                  <img src={post.image} alt={post.image} />
                 </div>
               </div>
             </article>
