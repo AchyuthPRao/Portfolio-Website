@@ -24,7 +24,6 @@ function Skills() {
           <img src={mongo} alt="" />
           {/* <img src={vite} alt="" /> */}
           <img src={express} alt="" />
-          <img src={jupyter} alt="" />
         </div>
         <div className="logos-slide">
           <img className="" src={reactLogo} alt="" />
@@ -35,7 +34,6 @@ function Skills() {
           <img src={mongo} alt="" />
           {/* <img src={vite} alt="" /> */}
           <img src={express} alt="" />
-          <img src={jupyter} alt="" />
         </div>
       </div>
     </div>
