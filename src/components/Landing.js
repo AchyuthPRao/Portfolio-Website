@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import meImg from "../images/me.JPG";
 export default function Example() {
   return (
-    <div id="home">
+    <div id="home" >
       <Navbar />
       <div className="bg-white py-28 sm:py-40 ">
         <div className="mx-auto max-w-7xl ">
