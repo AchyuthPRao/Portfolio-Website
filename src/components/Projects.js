@@ -2,9 +2,30 @@ import React from "react";
 import bitez from "../images/bitez.png";
 import catal from "../images/catal.png";
 import smsp from "../images/smsp.png";
+import hekman from "../images/hekman.png";
 import pharma from "../images/Screenshot 2024-03-06 135747.png";
 
 const posts = [
+  {
+    id: 3,
+    title: "Catalysis2.0",
+    href: "https://isecatalysis.in/",
+    description:
+      "Catalysis is an inter-department, extravagant 3-day tech fest, hosted by the ISE Department of Dayananda Sagar College of Engineering (DSCE), Bangalore.Contributed in making this full stack website. Catalysis aims to bring out the technical aspects in students by incorporating tech in various events going to be held throughout the whole of the fest",
+    date: "December, 2023",
+    category: { title: "MERN stack", href: "#" },
+    image: catal,
+  },
+  {
+    id: 4,
+    title: "Hackman v7",
+    href: "https://hackman-v7.netlify.app/",
+    description:
+      "HACKMAN v.7 is an Inter College, extravagant 24-hour Hackathon, hosted by the Department of ISE, Dayananda Sagar College of Engineering (DSCE), Bangalore , Led the Frontend team and collaboratively worked with 10+ people on Github",
+    date: "February, 2024",
+    category: { title: "ReactJs, Postgres,Express", href: "#" },
+    image: hekman,
+  },
   {
     id: 1,
     title: "PharmaDB",
@@ -36,16 +57,7 @@ const posts = [
     category: { title: "MERN stack", href: "#" },
     image: smsp,
   },
-  {
-    id: 3,
-    title: "Catalysis2.0",
-    href: "https://isecatalysis.in/",
-    description:
-      "Catalysis is an inter-department, extravagant 3-day tech fest, hosted by the ISE Department of Dayananda Sagar College of Engineering (DSCE), Bangalore.Contributed in making this full stack website. Catalysis aims to bring out the technical aspects in students by incorporating tech in various events going to be held throughout the whole of the fest",
-    date: "December, 2023",
-    category: { title: "MERN stack", href: "#" },
-    image: catal,
-  },
+ 
  
 
   // More posts...

@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 export default function Contact() {
   return (
-    <div className="m-0 bg-gray-700 py-10 px-48 flex justify-evenly ">
+    <div className="m-0 bg-gray-700 p-5 flex justify-evenly ">
       <a
         href="https://github.com/AchyuthPRao"
         target="_blank"
@@ -22,7 +22,7 @@ export default function Contact() {
         <p className="text-sm  text-white sm:text-lg mx-1 sm:mx-0">LinkedIn</p>
       </a>
       <a
-        href="https://mail.google.com/mail/u/0/#inbox?compose=XBcJlDLZZWcfPgCqDkCLZwWtkQcvvQdpssrQSwLtZNpczQQgJcBtlkXPtVKlwBhjZdrCsXppMHBdNXLl"
+        href="mailto:achyuthprao123@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="text-center"
