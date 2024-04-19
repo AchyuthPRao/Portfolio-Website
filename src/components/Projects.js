@@ -1,6 +1,7 @@
 import React from "react";
 import bitez from "../images/bitez.png";
 import catal from "../images/catal.png";
+import curious from "../images/curious.png";
 import smsp from "../images/smsp.png";
 import hekman from "../images/hekman.png";
 import pharma from "../images/Screenshot 2024-03-06 135747.png";
@@ -15,6 +16,16 @@ const posts = [
     date: "December, 2023",
     category: { title: "MERN stack", href: "#" },
     image: catal,
+  },
+  {
+    id: 3,
+    title: "Curious Capital",
+    href: "https://curiouscapital.in/",
+    description:
+      "Built this website for a Crypto investments company,Curious Capital.A MERN stack project with a blog interface for the admin to post blogs.",
+    date: "April, 2024",
+    category: { title: "MERN stack", href: "#" },
+    image: curious,
   },
   {
     id: 4,

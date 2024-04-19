@@ -1,14 +1,14 @@
 import React from "react";
-import { useRef, useEffect } from "react";
+// import { useRef, useEffect } from "react";
 import reactLogo from "../images/logos/react.png";
 import docker from "../images/logos/docker.png";
 import js from "../images/logos/js.png";
 import node from "../images/logos/nodejs.png";
 import mysql from "../images/logos/mysql.png";
 import mongo from "../images/logos/mongo.png";
-import vite from "../images/logos/vite.png";
+// import vite from "../images/logos/vite.png";
 import express from "../images/logos/express.png";
-import jupyter from "../images/logos/jupyter.png";
+// import jupyter from "../images/logos/jupyter.png";
 import "../App.css";
 
 function Skills() {
