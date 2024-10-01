@@ -22,7 +22,7 @@ export default function Experience() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(995,995,995)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(995,995,995)" }}
-          date="2024 - present"
+          date="Feb 2024 - Jul 2024"
           iconStyle={{ color: "#000", backgroundColor: "#fff" }}
           icon={<img src={nokia} alt="myLogo" className="rounded-full" />}
         >
@@ -40,7 +40,7 @@ export default function Experience() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(995,995,995)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(995,995,995)" }}
-          date="2023 - present"
+          date="2023 - 2024"
           iconStyle={{ color: "#000", backgroundColor: "#fff" }}
           icon={<img src={wisework} alt="myLogo" className="rounded-full" />}
         >
@@ -59,7 +59,7 @@ export default function Experience() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(995,995,995)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(995,995,995)" }}
-          date="2022 - present"
+          date="2022 - Present"
           iconStyle={{ color: "#000" }}
           icon={<img src={Genlogo} alt="myLogo" className="rounded-full" />}
         >

@@ -1,9 +1,11 @@
 import Typewriter from "typewriter-effect";
 import Navbar from "./Navbar";
 import meImg from "../images/me.JPG";
+import { FaFileDownload } from "react-icons/fa";
+
 export default function Example() {
   return (
-    <div id="home" >
+    <div id="home">
       <Navbar />
       <div className="bg-white py-28 sm:py-40 ">
         <div className="mx-auto max-w-7xl ">
@@ -27,12 +29,23 @@ export default function Example() {
                   delay: 100,
                   strings: [
                     "I'm a Full Stack Web Developer",
-                    "I'm a Freelancer",
-                    "I'm a C++ programmer",
+                    "I'm a C++ Programmer",
                   ],
                 }}
               />
             </h1>
+            <div className="pt-6">
+              <a
+                href="/ATS-Achyuth.pdf"
+                download="/ATS-Achyuth.pdf"
+                className="text-sm tracking-tight text-gray-900 sm:text-xl bg-gradient-to-r from-blue-900 via-blue-500 to-blue-400 text-transparent bg-clip-text bg-300% animate-gradient inline-block mr-2 align-middle"
+              >
+                Download Resume{" "}
+              </a>
+              <span className="inline-block align-middle">
+                <FaFileDownload />
+              </span>
+            </div>
           </div>
         </div>
       </div>
