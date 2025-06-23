@@ -2,7 +2,11 @@ import React from "react";
 import "../App.css";
 export default function Contact() {
   return (
-    <div className="m-0 bg-gray-700 p-5 flex justify-evenly ">
+    <>
+    <div className="bg-gray-900 p-5">
+    <h1 className="text-center pb-4 font-bold text-white text-2xl sm:text-5xl">How do you reach me?</h1>
+    <div id="contact" className="m-0  flex justify-evenly ">
+      
       <a
         href="https://github.com/AchyuthPRao"
         target="_blank"
@@ -31,5 +35,7 @@ export default function Contact() {
         <p className="text-sm text-white sm:text-lg mx-1 sm:mx-0">Gmail</p>
       </a>
     </div>
+    </div>
+    </>
   );
 }

@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   
 }
 
@@ -37,7 +37,7 @@ body {
 .logos {
   overflow:hidden;
   width: 100%;
-  padding: 60px 0 ;
+  padding: 40px 0 ;
   background: white;
   white-space: nowrap;
   position: relative;
@@ -51,7 +51,7 @@ body {
 .logos-slide {
   display: inline-block;
   overflow: hidden;
-  animation: 35s slide infinite linear;
+  animation: 10s slide infinite linear;
 }
 
 .logos-slide img {
@@ -66,6 +66,11 @@ body {
      /* Adjust the margin for small devices if needed */
   }
   .logos {
-    margin-top: -25%;
+    /* margin-top: -25%; */
   }
+}
+.name{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
